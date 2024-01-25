@@ -3,7 +3,7 @@ import tkinter.font as tkFont
 import socket
 
 # Wifi
-UDP_IP = "10.10.54.130" # Indicar IP
+UDP_IP = "192.168.4.1" # Indicar IP
 UDP_PORT = 8888 # Indicar puerto
 sock = socket.socket(socket.AF_INET, # Internet
                 socket.SOCK_DGRAM) # UDP
