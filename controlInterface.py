@@ -133,47 +133,47 @@ class App:
 
     def stop_button_command(self):
         print("Stop")
-        self.send_message('19')
+        self.send_message('k')
 
     def left_button_command(self):
         print("Moving left")
-        self.send_message('10')
+        self.send_message('b')
 
     def right_button_command(self):
         print("Moving right")
-        self.send_message('9')
+        self.send_message('a')
 
     def forward_button_command(self):
         print("Moving forward")
-        self.send_message('11')
+        self.send_message('c')
 
     def backward_button_command(self):
         print("Moving backward")
-        self.send_message('12')
+        self.send_message('d')
 
     def d_left_up_button_command(self):
         print("Diagonal left upwards")
-        self.send_message('13')
+        self.send_message('e')
 
     def d_right_up_button_command(self):
         print("Diagonal right upwards")
-        self.send_message('14')
+        self.send_message('f')
 
     def d_right_down_button_command(self):
         print("Diagonal right downwards")
-        self.send_message('16')
+        self.send_message('h')
 
     def d_left_down_button_command(self):
         print("Diagonal left downwards")
-        self.send_message('15')
+        self.send_message('g')
 
     def l_turn_button_command(self):
         print("Left turn")
-        self.send_message('18')
+        self.send_message('j')
 
     def r_turn_button_command(self):
         print("Right turn")
-        message = self.send_message('17')
+        message = self.send_message('i')
 
     def send_message(self, message):
         mes = bytes(message, 'ascii')
